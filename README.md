@@ -1,2 +1,19 @@
 # Neural-NILM
-A Non-Intrusive Load Disaggregation method based on Neural Network. A sequence-to-sequence and a sequence-to-point model are collected. 
+An Non-Intrusive Load Disaggregation method based on Neural Network. A sequence-to-sequence model and a sequence-to-point model are proposed. The project is based on Keras and the tensorflow version is on the way.
+
+## Files
+```
+|-- Seq2Seq.py            // 定义了一个Seq2Seq类
+|-- Seq2point.py          // 定义了一个Seq2point类
+|-- model.py              // 定义神经网络结构
+|-- lib.py                // 一些必要的自定义函数
+|-- main.py               // 主程序
+```
+
+## 数据集
+REDD： http://redd.csail.mit.edu/    
+由于训练用到的数据约为2G，故未上传。需要请前往上面链接自行下载。
+
+## 使用
+从主函数中调用各个文件并读取训练数据，即可开始训练。训练之后会自动将验证集上表现最好的模型及权值文件保存下来，训练曲线等数据保存为CSV文件。
+
