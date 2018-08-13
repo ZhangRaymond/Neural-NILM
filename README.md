@@ -1,5 +1,5 @@
 # Neural-NILM
-An Non-Intrusive Load Disaggregation method based on Neural Network. A sequence-to-sequence model and a sequence-to-point model are proposed. The project is based on Keras and the tensorflow version is on the way.
+An Non-Intrusive Load Monitoring (NILM) method (also called Non-Intrusive Load Disaggregation) based on Neural Network. A sequence-to-sequence model and a sequence-to-point model are proposed. The project is based on Keras and the tensorflow version is on the way.
 
 ## Files
 ```
