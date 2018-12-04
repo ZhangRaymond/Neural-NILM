@@ -3,17 +3,22 @@ An Non-Intrusive Load Monitoring (NILM) method (also called Non-Intrusive Load D
 
 ## Files
 ```
-|-- Seq2Seq.py            // 定义了一个Seq2Seq类
-|-- Seq2point.py          // 定义了一个Seq2point类
-|-- model.py              // 定义神经网络结构
-|-- lib.py                // 一些必要的自定义函数
-|-- main.py               // 主程序
+|-- Seq2Seq.py            // define a Seq2Seq Class
+|-- Seq2point.py          // define a Seq2point Class
+|-- model.py              // define some neural networks
+|-- lib.py                // Some necessary helper functions
+|-- main.py               // main function
 ```
+## Neural network framework
+Keras with tensorflow as backend
 
-## 数据集
+## Data set 数据集
 REDD： http://redd.csail.mit.edu/    
-由于训练用到的数据约为2G，故未上传。需要请前往上面链接自行下载。
+由于训练用到的数据约为2G，故未上传。需要请前往上面链接自行下载。   
+Because the data used in the training is about 2 G, it is not uploaded. Please go to the above link and download it yourself.
 
-## 使用
-从主函数中调用各个文件并读取训练数据，即可开始训练。训练之后会自动将验证集上表现最好的模型及权值文件保存下来，训练曲线等数据保存为CSV文件。
+## Usage 使用
+从主函数中调用各个文件并读取训练数据，即可开始训练。训练之后会自动将验证集上表现最好的模型及权值文件保存下来，训练曲线等数据保存为CSV文件。   
+
+Call each file from the main function and read the training data to start the training. After training, the best performance model and weight files on the verification set will be saved automatically, and the training curve and other data will be saved as CSV files.
 
