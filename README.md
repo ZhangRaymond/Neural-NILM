@@ -20,5 +20,5 @@ Because the data used in the training is about 2 G, it is not uploaded. Please g
 ## Usage 使用
 从主函数中调用各个文件并读取训练数据，即可开始训练。训练之后会自动将验证集上表现最好的模型及权值文件保存下来，训练曲线等数据保存为CSV文件。   
 
-Call each file from the main function and read the training data to start the training. After training, the best performance model and weight files on the verification set will be saved automatically, and the training curve and other data will be saved as CSV files.
+Call each file from the main function and read the training data to start the training. After training, the best performance model and weight files on the validation dataset will be saved automatically, and the training history and other data will be saved as CSV files.
 
